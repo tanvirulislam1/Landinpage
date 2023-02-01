@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!--Custom Css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Bootstrap Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!--NavBar Start Here-->
+    <nav class="navbar navbar-expand-lg p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#slider">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NavBar End Here-->
+
+    <!--Slider start here-->
+    <section id="slider">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/slider.webp" class="d-block w-100" alt="..." />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="text-dark">Example headline</h1>
+                <p class="text-danger">
+                  Some representative placeholder content <br />
+                  the first slide of the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Buy Now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slider.webp" class="d-block w-100" alt="..." />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="text-dark">Example headline.</h1>
+                <p class="text-danger">
+                  Some representative placeholder content <br />
+                  the first slide of the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Buy Now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slider.webp" class="d-block w-100" alt="..." />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="text-dark">Example headline.</h1>
+                <p class="text-danger">
+                  Some representative placeholder content <br />
+                  the first slide of the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Buy Now</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--Slider end here-->
+
+    <!--Chat Icon-->
+    <div id="chat-icon">
+      <a href="#chat-popup">
+        <img src="assets/img/Chat.png" style="height: 30px" alt="Chat Icon" />
+      </a>
+    </div>
+    <!--Chat Icon-->
+
+    <!--Our speciality Start-->
+    <section id="speciality">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card p-4 shadow">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card p-4 shadow">
+              <div class="card-icon">
+                <i class="bi bi-browser-safari"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card p-4 shadow">
+              <div class="card-icon">
+                <i class="bi bi-browser-firefox"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Our speciality end-->
+
+    <!--Services start-->
+    <section id="services" class="service-section bg-light">
+      <div class="container">
+        <h2 class="text-center my-4 py-4">Our Awosome Services</h2>
+        <div
+          class="row service-items justify-content-center"
+          style="display: flex; flex-wrap: wrap"
+        >
+          <div class="col-lg-4 col-sm-8" style="flex: 1; margin-bottom: 20px">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/1.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-capsule-pill"></i></div>
+                <h4 class="title"><a href="#">Pharmecy Store</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/2.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-buildings-fill"></i></div>
+                <h4 class="title"><a href="#">Hotel Management</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/3.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-shop"></i></div>
+                <h4 class="title"><a href="#">Super Shop</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/4.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-bank"></i></div>
+                <h4 class="title"><a href="#">Vat Management</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/5.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-egg-fried"></i></div>
+                <h4 class="title"><a href="#">Bakery Shop</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="service-item mb-30">
+              <div class="service-img">
+                <img src="assets/img/6.jpg" alt="Image" />
+              </div>
+              <div class="services-overlay">
+                <div class="icon"><i class="bi bi-hospital"></i></div>
+                <h4 class="title"><a href="#">Hospital</a></h4>
+                <p>
+                  The functional goal of technical content is to help people use
+                  a product successfully. The business goal must tie the
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Services end-->
+
+    <!--counter start-->
+    <div class="my-5 counter">
+      <div class="row">
+        <div class="col-lg-3 col-sm-12 text-icon">
+          <div class="text-center">
+            <i class="bi bi-cloud-download-fill"></i>
+            <div>
+              <span class="num" data-val="180">850</span><span>+</span><br />
+              <span>Installation</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 text-icon">
+          <div class="text-center">
+            <i class="bi bi-emoji-smile-fill"></i>
+            <div>
+              <span class="num" data-val="120">850</span><span>+</span><br />
+              <span>Satisfied Customers</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 text-icon">
+          <div class="text-center">
+            <i class="bi bi-cloud-download-fill"></i>
+            <div>
+              <span class="num" data-val="120">225</span><span>+</span><br />
+              <span>Customers</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 text-icon">
+          <div class="text-center">
+            <i class="bi bi-broadcast"></i>
+            <div>
+              <span class="num" data-val="120">225</span><span>+</span><br />
+              <span>Connections</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--counter end-->
+
+    <!--Features start-->
+    <section id="feature" class="feature bg-light">
+      <div class="container">
+        <h2 class="text-center my-4 py-4">Our Awosome Features</h2>
+        <div class="row">
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+          <div class="feature-card col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bi bi-browser-edge"></i>
+              </div>
+              <div class="card-title">First Service</div>
+              <div class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                est itaque sint incidunt, magni omnis?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Features end-->
+
+    <!--Frequently Ask Question Start-->
+    <section id="faq" class="container">
+      <h2 class="text-center my-4 py-4">Frequently Ask Question</h2>
+      <div class="row d-flex border gx-5 border-light">
+        <div class="auto-q col-md-6 col-sm-12 p-4 shadow">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What is required to book an event?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  We require your contact information (name, phone number,
+                  address, and email), the event area rental of your choice,
+                  your preferred time slot, and payment in full.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Can I bring My Pet?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  We are a pet-friendly venue, however we do require that all
+                  animals be up-to-date on their vaccinations and remain on a
+                  leash. And pet owners are required to pick up after their
+                  pets. You must scoop the poop.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  What forms of Payment do you accept?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  We accept cash, check and credit card. Credit cards must be
+                  Visa or Mastercard. We do not accept Discovery Card or
+                  American Express.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  What deposit is required to book an event and is it
+                  refundable?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  We ask that you pay in full at the time of reserving your
+                  party. If you need to cancel, you do get your payment refunded
+                  in full (even if you cancel on the same day as your party.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="p-4 shadow">
+            <h2 class="text-center">Have Any Other Questions?</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration.
+            </p>
+            <br />
+            <input
+              type="email"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Enter your email address"
+            /><br />
+            <textarea placeholder="Type your Question."></textarea>
+            <br />
+            <input class="submit" type="submit" value="SUBMIT" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Frequently Ask Question End-->
+
+    <!--Our Packages Start-->
+    <section id="packages" class="pricing" style="padding-bottom: 50px">
+      <div class="container">
+        <h2 class="text-center my-4 py-5">Our Awosome Packages</h2>
+        <div class="row">
+          <!-- Silver Plan -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  silver
+                </h5>
+                <h6 class="card-price text-center">
+                  $15<span class="period">/Hour</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    For 30 People
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Per Hour Bill
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Full space access
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Build As Shift
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="bi bi-x-circle"></i></span>
+                    Dedicated Team
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="bi bi-x-circle"></i></span>
+                    Management Support
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="bi bi-x-circle"></i></span>
+                    Decoration Design
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="bi bi-x-circle"></i></span>
+                    Buffet Food
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-primary text-uppercase"
+                    >Select Plan</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Daimond Plan-->
+          <div class="col-lg-4">
+            <div
+              class="card"
+              style="
+                transform: scale(1.02, 1.02);
+                -webkit-transform: scale(1.02, 1.02);
+                backface-visibility: hidden;
+                will-change: transform;
+                box-shadow: 0 1rem 3rem rgba(4, 117, 121, 0.3) !important;
+              "
+            >
+              <div class="card-body">
+                <span class="hot">15% Off</span>
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  diamond
+                </h5>
+                <h6 class="card-price text-center">
+                  $100<span class="period">/Hour</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="bi bi-check-circle"></i></span
+                    ><strong> For 150 People</strong>
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Per Hour Bill
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Full space access
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Build As Shift
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Dedicated Team
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Management Support
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Premium Decoration
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="bi bi-check-circle"></i></span
+                    ><strong> Buffet Food</strong>
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-primary text-uppercase"
+                    >Select Plan</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Platinum Plan -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  platinum
+                </h5>
+                <h6 class="card-price text-center">
+                  $50<span class="period">/Hour</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="bi bi-check-circle"></i></span
+                    ><strong> For 80 People</strong>
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Per Hour Bill
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Full space access
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Build As Shift
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Dedicated Team
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Management Support
+                  </li>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="bi bi-check-circle"></i
+                    ></span>
+                    Premium Decoration
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="bi bi-x-circle"></i></span>
+                    Buffet Food
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-primary text-uppercase"
+                    >Select Plan</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Our Package End-->
+
+    <!--unique start-->
+    <section id="unique" class="unique bg-light">
+      <div class="container">
+        <h2 class="text-center my-4 py-5">Why we are unique</h2>
+        <div class="row">
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+          <div class="unique col-lg-4">
+            <span class="icon"><i class="bi bi-phone"></i></span>
+            <div class="fix" style="padding-left: 20px">
+              <h4>Responsive Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                accusantium a eos, tempora illum labore!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--unique end-->
+
+    <!--Our Awosome Testmonials Start-->
+    <section id="testmonials" class="container" style="padding-bottom: 50px">
+      <h2 class="text-center my-4 py-5">Our Awosome Testmonials</h2>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-4 col-sm-12">
+          <div class="p-4 shadow testmonials-box1">
+            <p class="text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quis
+              libero tenetur voluptate deleniti error voluptatibus.
+            </p>
+          </div>
+          <div class="author d-flex align-items-center">
+            <div class="photo">
+              <img
+                src="assets/img/Authentication-bro.png"
+                alt=""
+                style="width: 100px"
+              />
+            </div>
+            <div class="desc">
+              <h5>Tanvirul Islam</h5>
+              <span class="position">Student</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="p-4 shadow testmonials-box2">
+            <p class="text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quis
+              libero tenetur voluptate deleniti error voluptatibus.
+            </p>
+          </div>
+          <div class="author d-flex align-items-center">
+            <div class="photo">
+              <img
+                src="assets/img/Authentication-bro.png"
+                alt=""
+                style="width: 100px"
+              />
+            </div>
+            <div class="desc">
+              <h5>Tanvirul Islam</h5>
+              <span class="position">Student</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="p-4 shadow testmonials-box3">
+            <p class="text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quis
+              libero tenetur voluptate deleniti error voluptatibus.
+            </p>
+          </div>
+          <div class="author d-flex align-items-center">
+            <div class="photo">
+              <img
+                src="assets/img/Authentication-bro.png"
+                alt=""
+                style="width: 100px"
+              />
+            </div>
+            <div class="desc">
+              <h5>Tanvirul Islam</h5>
+              <span class="position">Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Our Awosome Testmonials End-->
+
+    <!--About Us start-->
+    <section id="aboutus">
+      <div class="about bg-light" style="padding-bottom: 50px">
+        <div class="container">
+          <h2 class="text-center my-4 py-5">About Us</h2>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img src="assets/img/about.png" alt="" style="height: 500px" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-text">
+                <h2 class="about-head">Lorem ipsum dolor sit amet</h2>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  illo nostrum dicta accusantium obcaecati.
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                  atque dolor, velit doloribus accusamus inventore soluta. Quae,
+                  veritatis maiores. Dicta, quis. Dolores, provident assumenda
+                  obcaecati soluta itaque doloremque quaerat similique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our Team-->
+      <div class="container our-team" style="padding-bottom: 50px">
+        <h2 class="text-center my-4 py-4">Our Great Team</h2>
+        <div class="row">
+          <div class="team-card col-lg-4 col-sm-12">
+            <div class="card shadow">
+              <div class="card-element my-3">
+                <div class="card-img">
+                  <img src="assets/img/man.jpg" alt="" />
+                </div>
+                <div class="card-title">Tanvirul Islam</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-card col-lg-4 col-sm-12">
+            <div class="card shadow">
+              <div class="card-element my-3">
+                <div class="card-img">
+                  <img src="assets/img/man.jpg" alt="" />
+                </div>
+                <div class="card-title">Tanvirul Islam</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-card col-lg-4 col-sm-12">
+            <div class="card shadow">
+              <div class="card-element my-3">
+                <div class="card-img">
+                  <img src="assets/img/man.jpg" alt="" />
+                </div>
+                <div class="card-title">Tanvirul Islam</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our Team-->
+      <div class="about-software bg-light" style="padding-bottom: 50px">
+        <div class="container">
+          <h2 class="text-center my-4 py-5">About Our Software</h2>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="about-text">
+                <h2 class="about-head">Lorem ipsum dolor sit amet</h2>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  illo nostrum dicta accusantium obcaecati.
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                  atque dolor, velit doloribus accusamus inventore soluta. Quae,
+                  veritatis maiores. Dicta, quis. Dolores, provident assumenda
+                  obcaecati soluta itaque doloremque quaerat similique.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img
+                  src="assets/img/about-soft.png"
+                  alt=""
+                  style="height: 500px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About Us end-->
+
+    <!--Contact section start here-->
+    <section id="contact">
+      <div class="contact-area">
+        <div class="container my-5">
+          <div class="section-title text-center my-5">
+            <h2>Get in touch</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="contact-form text-center">
+                <form id="contact-form">
+                  <input name="name" type="text" placeholder="Name" />
+                  <input name="email" type="email" placeholder="Email" />
+                  <textarea
+                    name="message"
+                    placeholder="Your message"
+                  ></textarea>
+                  <input class="submit" type="submit" value="SUBMIT" />
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="map text-center">
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <iframe
+                      width="566"
+                      height="318"
+                      id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=dhaka%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      frameborder="0"
+                      scrolling="no"
+                      margin="0"
+                      marginwidth="0"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info p-4 shadow my-4 py-4">
+            <div class="row text-align-center">
+              <div class="col-lg-4 col-cm-12">
+                <div class="author d-flex align-items-center">
+                  <div class="contact-icon">
+                    <i class="bi bi-telephone-fill"></i>
+                  </div>
+                  <div class="desc">
+                    <h6>0123456789</h6>
+                    <h6>0123456789</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-cm-12">
+                <div class="author d-flex align-items-center">
+                  <div class="contact-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="desc">
+                    <h6>example@example.com</h6>
+                    <h6>admin@email.com</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-cm-12">
+                <div
+                  class="author d-flex align-items-center justify-content-center"
+                >
+                  <div class="contact-icon">
+                    <i class="bi bi-geo-alt-fill"></i>
+                  </div>
+                  <div class="desc">
+                    <h6>Your address gose here</h6>
+                    <h6>Address line here</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact section start here-->
+
+    <!--Quick Link-->
+    <div id="quicklink" class="container">
+      <div class="row">
+        <div class="col-lg-3 col-cm-12 d-flex justify-content-center">
+          Company Name
+        </div>
+        <div class="col-lg-3 col-cm-12 d-flex justify-content-center">
+          <div class="quicklink-col">
+            <div class="quicklink-title">
+              <h3>Title One</h3>
+              <hr />
+            </div>
+            <div class="quicklink">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">SMS Services</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">Cloud</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-cm-12 d-flex justify-content-center">
+          <div class="quicklink-col">
+            <div class="quicklink-title">
+              <h3>Title Two</h3>
+              <hr />
+            </div>
+            <div class="quicklink">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">SMS Services</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">Cloud</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-cm-12 d-flex justify-content-center">
+          <div class="quicklink-col">
+            <div class="quicklink-title">
+              <h3>Title Three</h3>
+              <hr />
+            </div>
+            <div class="quicklink">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">SMS Services</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">Cloud</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Quick Link-->
+
+    <!--Footer Option Start-->
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4">
+            <span class="text-muted"
+              >&copy; 2023 Tanvir All Rights Reserved</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <!--Footer Option End-->
+    <!--Script-->
+    <script src="assets/script/script.js"></script>
+    <!--Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
